@@ -41,13 +41,3 @@ pprint("{} is isascii (a-z, A-Z, 0-9, + symbols),)=>   {}", new_string,  new_str
 pprint("More than one {}=> {}", new_string,  ("\n\t"+new_string)*3)
 
 
-
-# string.find()
-# string.capitalize
-# string.upper
-# string.lower
-# string.isdigit
-# string.isalpha
-# string.count
-# string.replace
-
