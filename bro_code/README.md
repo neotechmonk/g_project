@@ -15,13 +15,13 @@
 
 
 ## Study Plan
-- [] Intro
-- [] Variables
-- [] String Methods
-- [] Tye Casting
-- [] User Input 
-- [] Math functions
-- [] String slicing
+- [ ] Intro
+- [ ] Variables
+- [ ] String Methods
+- [ ] Tye Casting
+- [ ] User Input 
+- [ ] Math functions
+- [ ] String slicing
 
 
 
