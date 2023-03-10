@@ -12,7 +12,6 @@ Handy string methods
 """
 
 
-from string import Template
 
 #Helper function
 def pprint(template: str, *args):
