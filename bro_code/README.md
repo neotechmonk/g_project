@@ -15,14 +15,15 @@
 
 
 ## Study Plan
-- [ ] Intro
-- [ ] Variables
-- [ ] String Methods
+- [x] Intro
+- [x] Variables
+- [x] String Methods
 - [ ] Tye Casting
 - [ ] User Input 
 - [ ] Math functions
+
 - [ ] String slicing
 
 
 
-    
+# NOW WE ARE SMALL TALKING
