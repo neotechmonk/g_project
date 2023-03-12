@@ -30,20 +30,6 @@ def raise_pow(base: int, power: int =2)-> int:
 # print(raise_pow(4)) #Use the ß default parameter
 
 
-# lambda function with no parameters
-greeting = lambda: print("Hello, world!") #greeting now takes the lambda funciton
-print(f'greeting() => ')
-greeting()
-
-# lambda function with one parameter
-square = lambda number: number * number
-print(f'square(5)) => {square(5)}')
-
-# lambda function with two parameters
-add_numbers = lambda num1, num2: num1 + num2
-print(f'add_numbers(5, 7) => {add_numbers(5, 7)}')
-
-
 
 # function with variable-length positional arguments
 def add_numbers(*args):
@@ -71,26 +57,30 @@ def print_kwargs(**kwargs):
 print_kwargs(name="Alice", age=30, city="New York")
 
 
-#------------------
-#Lamba with Variable lenth positional arguments
-lamba_add = lambda *args: sum(args)
-
-print (f'lamba_add(1,2,3,3,4) == {lamba_add(1,2,3,3,4)}')
-
-
-#------------------
-#Lamba with Variable lenth k-v arguments
-
-lamba_names = lambda **kwargs: print(", ".join(value for key, value in kwargs.items() if key == 'name'))
 
 
 
-lamba_names(name="Alice", age=30, city="New York")# Call the lambda function with variable keyword arguments
-lamba_names(name="Bob", city="San Francisco")
+#Functional programming features
+#Passing functions as arguments to other functions
 
-my_dict = {"name": "Samuel", "age": 30, "city": "New York", "name": "Peter"} # Call the lambda function with a dictionary; last name gets picked up 
-lamba_names(**my_dict)
+def add_func(x :int , y: int) -> int: 
+    return x + y
 
-lamba_names1 = lambda **kwargs: print(", ".join(name if isinstance(name, str) else ", ".join(name) for key, name in kwargs.items() if key == 'name'))
-my_dict1 = {"name": ["Ray", "Brett"], "age": 30, "city": "New York"} # Both names will be concat
-lamba_names1(**my_dict1)
+
+def multiply_func(x :int , y: int) -> int: 
+    return x * y
+
+def do_math(math_func,x, y): 
+    return math_func(x,y)
+
+print(f'do_math(add_func, 5, 6)  => {do_math(add_func, 5, 6)}')
+print(f'do_math(multiply_func, 5, 6)  => {do_math(multiply_func, 5, 6)}')
+
+
+#Returning functions
+def adjust_total(sales): 
+    def add_tax(sales):
+        return sales*1.1
+    return add_tax(sales)
+
+print(f'adjust_total(100) => {adjust_total(100):.2f} after tax')
