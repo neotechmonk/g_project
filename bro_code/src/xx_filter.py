@@ -5,7 +5,7 @@
         Sets: {1, 2, 3, 4, 5}
         Dictionaries: {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
     
-    The search criteria is passed as a function. This function can be
+    The search criteria is passed as a function. This˝ function can be
         1. Convetional named functio OR
         2. lamda function
 
