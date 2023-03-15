@@ -1,0 +1,52 @@
+2023-03-14 19:47:23,062 - root -  [INFO] - INFO
+2023-03-14 19:47:23,062 - root -  [WARNING] - WARNING
+2023-03-14 19:47:23,062 - root -  [ERROR] - ERROR
+2023-03-14 19:47:23,062 - root -  [CRITICAL] - CRITICAL
+2023-03-14 19:47:43,126 - root -  [INFO] - INFO
+2023-03-14 19:47:43,126 - root -  [WARNING] - WARNING
+2023-03-14 19:47:43,126 - root -  [ERROR] - ERROR
+2023-03-14 19:47:43,126 - root -  [CRITICAL] - CRITICAL
+2023-03-14 19:48:03,551 - xx_logging_helper - DEBUG - This is a debug message
+2023-03-14 19:48:03,551 - xx_logging_helper -  [DEBUG] - This is a debug message
+2023-03-14 19:48:03,551 - xx_logging_helper - INFO - This is an info message
+2023-03-14 19:48:03,551 - xx_logging_helper -  [INFO] - This is an info message
+2023-03-14 19:48:03,552 - xx_logging_helper - WARNING - This is a warning message
+2023-03-14 19:48:03,552 - xx_logging_helper -  [WARNING] - This is a warning message
+2023-03-14 19:48:03,552 - xx_logging_helper - ERROR - This is an error message
+2023-03-14 19:48:03,552 - xx_logging_helper -  [ERROR] - This is an error message
+2023-03-14 19:48:03,552 - xx_logging_helper - CRITICAL - This is a critical message
+2023-03-14 19:48:03,552 - xx_logging_helper -  [CRITICAL] - This is a critical message
+2023-03-14 19:49:27,527 - xx_logging_helper - DEBUG - This is a debug message
+2023-03-14 19:49:27,527 - xx_logging_helper -  [DEBUG] - This is a debug message
+2023-03-14 19:49:27,527 - xx_logging_helper - INFO - This is an info message
+2023-03-14 19:49:27,527 - xx_logging_helper -  [INFO] - This is an info message
+2023-03-14 19:49:27,527 - xx_logging_helper - WARNING - This is a warning message
+2023-03-14 19:49:27,527 - xx_logging_helper -  [WARNING] - This is a warning message
+2023-03-14 19:49:27,527 - xx_logging_helper - ERROR - This is an error message
+2023-03-14 19:49:27,527 - xx_logging_helper -  [ERROR] - This is an error message
+2023-03-14 19:49:27,527 - xx_logging_helper - CRITICAL - This is a critical message
+2023-03-14 19:49:27,527 - xx_logging_helper -  [CRITICAL] - This is a critical message
+2023-03-14 19:53:26,960 - xx_logging_helper - DEBUG - This is a debug message
+2023-03-14 19:53:26,960 - xx_logging_helper -  [DEBUG] - This is a debug message
+2023-03-14 19:53:26,960 - xx_logging_helper - INFO - This is an info message
+2023-03-14 19:53:26,960 - xx_logging_helper -  [INFO] - This is an info message
+2023-03-14 19:53:26,960 - xx_logging_helper - WARNING - This is a warning message
+2023-03-14 19:53:26,960 - xx_logging_helper -  [WARNING] - This is a warning message
+2023-03-14 19:53:26,960 - xx_logging_helper - ERROR - This is an error message
+2023-03-14 19:53:26,960 - xx_logging_helper -  [ERROR] - This is an error message
+2023-03-14 19:53:26,960 - xx_logging_helper - CRITICAL - This is a critical message
+2023-03-14 19:53:26,960 - xx_logging_helper -  [CRITICAL] - This is a critical message
+2023-03-14 19:53:36,605 - xx_logging_helper - DEBUG - This is a debug message
+2023-03-14 19:53:36,605 - xx_logging_helper -  [DEBUG] - This is a debug message
+2023-03-14 19:53:36,605 - xx_logging_helper - INFO - This is an info message
+2023-03-14 19:53:36,605 - xx_logging_helper -  [INFO] - This is an info message
+2023-03-14 19:53:36,605 - xx_logging_helper - WARNING - This is a warning message
+2023-03-14 19:53:36,605 - xx_logging_helper -  [WARNING] - This is a warning message
+2023-03-14 19:53:36,605 - xx_logging_helper - ERROR - This is an error message
+2023-03-14 19:53:36,605 - xx_logging_helper -  [ERROR] - This is an error message
+2023-03-14 19:53:36,605 - xx_logging_helper - CRITICAL - This is a critical message
+2023-03-14 19:53:36,605 - xx_logging_helper -  [CRITICAL] - This is a critical message
+2023-03-14 19:53:36,606 - __main__ -  [INFO] - Module logger from the custom code
+2023-03-14 19:54:32,376 - xx_logging_helper - INFO - Customer Logger called
+2023-03-14 19:54:32,376 - xx_logging_helper -  [INFO] - Customer Logger called
+2023-03-14 19:54:32,376 - __main__ -  [INFO] - Module logger from the custom code
