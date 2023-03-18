@@ -5,9 +5,7 @@ neg_num = -343.2
 
 
 # round
-print(f'round  on {pos_num}  is  {0}'.format(round(pos_num))) #Note this is not math.round
-
-
+print(f'round  on {pos_num}  is  {0}'.format(round(pos_num))) #Note this is not math.roundddrr
 # round up
 print('math.ceil  on {}  is  {}'.format(pos_num, math.ceil(pos_num))) 
 

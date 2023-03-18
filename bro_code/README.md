@@ -18,12 +18,11 @@
 - [x] Intro
 - [x] Variables
 - [x] String Methods
-- [ ] Tye Casting
-- [ ] User Input 
+- [x] Tye Casting
+- [x] User Input 
 - [ ] Math functions
 
 - [ ] String slicing
 
 
-
-# NOW WE ARE SMALL TALKING
+##Up next

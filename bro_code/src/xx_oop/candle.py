@@ -74,7 +74,6 @@ class Candle:
                 )
                 for row in reader
             ]
-            Candle.all.extend(candles)
         return Candle.all
 
     @property
