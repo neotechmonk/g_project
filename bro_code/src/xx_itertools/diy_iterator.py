@@ -5,6 +5,7 @@
 from  dataclasses import dataclass
 from typing import Iterable
 
+#Note the dataclass offers a number if neat features like not defining the constructor
 @dataclass()
 class InfiniteIterator:
     num: int = 0
@@ -34,5 +35,5 @@ class FiniteIterator:
     
 
 if __name__ == "__main__":
-    for num in FiniteIterator(max=10): 
+    for num in FiniteIterator(10): 
         print(num)
