@@ -1,5 +1,5 @@
 """
-    YT : https://www.youtube.com/watch?v=aumxFs2DO5o
+    YT : https://youtu.be/aumxFs2DO5o?t=498
 """
 
 from  dataclasses import dataclass
