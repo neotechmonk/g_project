@@ -22,16 +22,16 @@
 - [x] User Input 
 - [x] Math functions
 - [x] String slicing
-- [ ]If statements
-- [ ]Logical Operators
+- [ ] If statements
+- [ ] Logical Operators
 
 ##Home work
-[]Fizz buzz ()
+- [ ]Fizz buzz ()
 
 
 ##Up next 
-[ ]While loops
-[ ]For loops
-[ ]Nested loops
-[ ]Break continue pass
-[ ]Lists
+- [ ] While loops
+- [ ] For loops
+- [ ] Nested loops
+- [ ] Break continue pass
+- [ ] Lists
