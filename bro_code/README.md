@@ -20,9 +20,18 @@
 - [x] String Methods
 - [x] Tye Casting
 - [x] User Input 
-- [ ] Math functions
+- [x] Math functions
+- [x] String slicing
+- [ ]If statements
+- [ ]Logical Operators
 
-- [ ] String slicing
+##Home work
+[]Fizz buzz ()
 
 
-##Up next
+##Up next 
+[ ]While loops
+[ ]For loops
+[ ]Nested loops
+[ ]Break continue pass
+[ ]Lists
