@@ -33,6 +33,15 @@ if all(my_list):
 else:
     print("Not all elements in the list are True")
 
+
+dict1 = {'a': 10, 'b': 20, 'c': 30}
+print(f"--All values  > 5 {all(val > 5 for val in dict1.values())}")
+
+
+
+list2 = [1, 2, 'three', 4, 5]
+print (f"All are ints : {all(isinstance(val, int) for val in list2)}")
+
 # any
 my_list = [False, False, True, False]
 
@@ -41,3 +50,11 @@ if any(my_list):
 else:
     print("No elements in the list are True")
 
+list1 = [1, 2, 3, 4, 5]
+print(f"**At least one value is > 5 {any(val > 5 for val in list1)}")
+
+
+list3 = ['hello', 'world', 'python']
+string1 = 'hello python!'
+
+print(f"at least one of {list3} is in {string1} : {any(val in string1 for val in list3)}")
