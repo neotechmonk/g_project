@@ -10,7 +10,7 @@
 
 ## Study Plan
 - [ ] W2 - Expressions and Variables
-- [ ] W2 - Functions **- focus for next week**
+- [x] W2 - Functions **- focus for next week**
 - [x] W2 - Conditionals
 
 
